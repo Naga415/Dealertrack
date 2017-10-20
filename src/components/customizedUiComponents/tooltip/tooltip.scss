@@ -1,0 +1,48 @@
+
+.taxestooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.taxestooltip .tooltiptext {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 5px 0;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 1 !important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  transform-origin: 0 0;
+  box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.tooltip-top {
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.taxestooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.taxestooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 48%;
+  margin-left: -5px;
+  border: 5px solid #fff;
+  border-color: transparent transparent #fff #fff;
+  transform-origin: 0 0;
+  transform: rotate(-45deg);
+  box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+}

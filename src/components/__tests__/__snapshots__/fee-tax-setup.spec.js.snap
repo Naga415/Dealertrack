@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fee Tax Setup specs renders <FeeTaxSetup /> 1`] = `
+<div
+  className="row"
+  id="edit-tax-fee-setup"
+>
+  <div
+    className="nav-tabs-content"
+  >
+    <strong
+      className="text"
+    >
+      Following are the fees available.
+    </strong>
+    <table
+      className="table fee-tax-setup-table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Fee Type
+          </th>
+          <th>
+            Fee Name
+          </th>
+          <th>
+            Tax if cap
+          </th>
+          <th>
+            Tax if DIA
+          </th>
+          <th>
+            CRT
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            test1
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            test2
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <input
+              type="checkbox"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

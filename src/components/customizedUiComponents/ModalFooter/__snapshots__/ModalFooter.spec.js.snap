@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalFooter renders <ModalFooter /> 1`] = `
+<div
+  id="ModalFooter"
+>
+  <div
+    className="row"
+    id="buttongroup"
+  >
+    <div
+      className="leftbtn col-lg-6 col-md-6 col-sm-6"
+      id={undefined}
+    />
+    <div
+      className="rightbtns col-lg-6 col-md-6 col-sm-6"
+      id={undefined}
+    >
+      <button
+        className="cancel-btn btn btn-default"
+        disabled={false}
+        href={undefined}
+        id="Test Name-modalCancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="save-btn btn btn-default"
+        disabled={false}
+        href={undefined}
+        id="Test Name-modalSave"
+        onClick={[Function]}
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;

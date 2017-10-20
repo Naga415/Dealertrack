@@ -1,0 +1,1254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaxSetup renders <TaxSetup /> 1`] = `
+<div
+  className="tax-setup-container"
+  id="edit-tax-setup"
+>
+  <div
+    className="row retail-row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-retail-flat"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="retail-flat"
+        >
+          Retail Flat
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control "
+            disabled={false}
+            name="retail-flat"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-retail-trade-credit"
+    >
+      <div
+        className="col-xs-12 form-group-taxes"
+      >
+        <label
+          htmlFor="retail-trade-credit"
+        >
+          Retail-Trade Credit
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-2--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-2--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-3 col-xs-4"
+      id="taxes-retail-tarde-credit-amount"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="trade-credit-amountt"
+        >
+          Trade Credit Amount
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control "
+            disabled={false}
+            name="trade-credit-amountt"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-retail-tax-percent"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="retail-tax-percent"
+        >
+          Retail Tax
+        </label>
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control "
+            disabled={false}
+            name="retail-tax-percent"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-percent"
+            />
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-retail-tax-method"
+    >
+      <div
+        className="col-xs-10 form-group-taxes"
+      >
+        <label
+          htmlFor="retail-tax-method"
+        >
+          Method
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-3--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-3--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-retail-tooltip"
+      >
+        <span>
+          <div
+            className="taxestooltip"
+          >
+            <i
+              className="fa fa-info-circle"
+            />
+            <span
+              className="tooltiptext"
+            >
+              Retail tax Method Options
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      Apply to
+    </div>
+    <div
+      className="row lease-row"
+    >
+      <div
+        className="col-xs-1"
+        id="taxes-retail-tax-fees"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="retail-tax-fees"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="retail-tax-fees"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Fees
+          </label>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-retail-tax-products"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="retail-tax-products"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="retail-tax-products"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Products
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-2"
+      id="taxes-capitalize"
+    >
+      <div
+        className="checkbox"
+      >
+        <label
+          htmlFor="capitalize"
+        >
+          <input
+            checked={false}
+            disabled={false}
+            name="capitalize"
+            onChange={[Function]}
+            type="checkbox"
+          />
+          Capitalize
+        </label>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-lease-flat"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="lease-flat"
+        >
+          Lease Flat
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control "
+            disabled={false}
+            name="lease-flat"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-lease-trade-credit"
+    >
+      <div
+        className="col-xs-12 form-group-taxes"
+      >
+        <label
+          htmlFor="lease-trade-credit"
+        >
+          Lease Trade Credit
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-4--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-4--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-xs-3"
+      id="taxes-lease-trade-credit-amount"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="trade-credit-amountt"
+        >
+          Trade Credit Amount
+        </label>
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control "
+            disabled={false}
+            name="trade-credit-amountt"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div
+    className="row lease-row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-lease-tax-percent"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="lease-tax-percent"
+        >
+          Lease Tax
+        </label>
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control "
+            disabled={false}
+            name="lease-tax-percent"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-percent"
+            />
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-lease-tax-method"
+    >
+      <div
+        className="col-xs-10 form-group-taxes"
+      >
+        <label
+          htmlFor="lease-tax-method"
+        >
+          Method
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-5--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-5--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-lease-tooltip"
+      >
+        <span>
+          <div
+            className="taxestooltip"
+          >
+            <i
+              className="fa fa-info-circle"
+            />
+            <span
+              className="tooltiptext"
+            >
+              Lease tax Method Options
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      Apply to
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-1"
+        id="taxes-lease-fees"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="lease-tax-fees"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="lease-tax-fees"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Fees
+          </label>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-lease-products"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="lease-tax-products"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="lease-tax-products"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Products
+          </label>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-mut-percent"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="monthly-use-tax-percent"
+        >
+          Monthly Use Tax
+        </label>
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control "
+            disabled={false}
+            name="monthly-use-tax-percent"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-percent"
+            />
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-mut-method"
+    >
+      <div
+        className="col-xs-10 form-group-taxes"
+      >
+        <label
+          htmlFor="monthly-tax-method"
+        >
+          Method
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-6--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-6--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-mut-tooltip"
+      >
+        <span>
+          <div
+            className="taxestooltip"
+          >
+            <i
+              className="fa fa-info-circle"
+            />
+            <span
+              className="tooltiptext"
+            >
+              Monthly tax Method Options
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      Apply to
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-1"
+        id="taxes-mut-fees"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="monthly-tax-fees"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="monthly-tax-fees"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Fees
+          </label>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-mut-products"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="monthly-tax-products"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="monthly-tax-products"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Products
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-3"
+      id="taxes-crt-percent"
+    >
+      <div
+        className="form-group-taxes"
+      >
+        <label
+          htmlFor="cap-reduction-tax-percent"
+        >
+          Cap Reduction Tax
+        </label>
+        <div
+          className="input-group"
+        >
+          <input
+            className="form-control "
+            disabled={false}
+            name="cap-reduction-tax-percent"
+            onChange={[Function]}
+            type="text"
+            value="0"
+          />
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-percent"
+            />
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      className="col-xs-5"
+      id="taxes-crt-method"
+    >
+      <div
+        className="col-xs-10 form-group-taxes"
+      >
+        <label
+          htmlFor="cap-reduction-tax-method"
+        >
+          Method
+        </label>
+        <div
+          className="Select Select--single is-clearable is-searchable"
+          style={undefined}
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={undefined}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-7--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Select...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <style
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "input#undefined::-ms-clear {display: none;}",
+                    }
+                  }
+                />
+                <input
+                  aria-activedescendant="react-select-7--value"
+                  aria-describedby={undefined}
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-label={undefined}
+                  aria-labelledby={undefined}
+                  aria-owns=""
+                  className={undefined}
+                  id={undefined}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  tabIndex={undefined}
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-crt-tooltip"
+      >
+        <span>
+          <div
+            className="taxestooltip"
+          >
+            <i
+              className="fa fa-info-circle"
+            />
+            <span
+              className="tooltiptext"
+            >
+              Cap Reduction tax Method Options
+            </span>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div
+      className="col-xs-4"
+    >
+      Apply to
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-xs-1"
+        id="taxes-crt-fees"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="cap-tax-fees"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="cap-tax-fees"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Fees
+          </label>
+        </div>
+      </div>
+      <div
+        className="col-xs-1"
+        id="taxes-crt-products"
+      >
+        <div
+          className="checkbox"
+        >
+          <label
+            htmlFor="cap-tax-products"
+          >
+            <input
+              checked={false}
+              disabled={false}
+              name="cap-tax-products"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            Products
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-3"
+    >
+      <label
+        className="boldify"
+        htmlFor="taxSetup"
+      >
+        Total: $ 0
+      </label>
+    </div>
+    <div
+      className="col-md-6 col-xs-6"
+    >
+      <label
+        className="boldify col-xs-10 col-xs-offset-10 sales"
+        htmlFor="taxSetup"
+      >
+        Sales $ 0 | MUT $ 0 |CRT $ 0
+      </label>
+    </div>
+  </div>
+</div>
+`;

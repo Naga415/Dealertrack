@@ -1,0 +1,168 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+//@import '~@coxautokc/fusion-theme/dist/fusion-theme.css/fusion-theme.min.css'; // eslint-disable-line
+
+#Taxes-Modal {
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .modal-dialog {
+    width: 62.5%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 12.5%;
+    right: 0;
+    bottom: 0;
+    left: 25%;
+  }
+
+  .modal-body {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.modal-backdrop {
+  background-color: transparent;
+}
+
+.header-text {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.boldify {
+  font-weight: bold;
+}
+
+.tax-setup-container {
+  .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .col-xs-offset-half {
+    margin-left: 4.16667%;
+  }
+}
+
+.Select.is-disabled > .Select-control {
+  background-color: #eee;
+}
+
+.zipcode-text {
+  color: black;
+  margin-top: 30px;
+}
+
+.col-xs-offset-half {
+  margin-top: 20px;
+}
+
+.sales {
+  left: 30px;
+}
+
+.fee-tax-setup-table,
+.product-category-tax-setup-table {
+  thead > tr > th {
+    background-color: #20518a;
+    color: white;
+  }
+}
+
+//Overriding Bootstrap styling
+
+.nav-tabs {
+  border-bottom: 2px solid #ddd !important;
+  margin-bottom: 25px !important;
+}
+
+.nav-tabs > li.active > a {
+  color: #4285f4 !important;
+  border: none !important;
+  background-color: white !important;
+  border-bottom: 6px solid #4285f4 !important;
+  font-weight: bold;
+}
+
+.nav-tabs > li > a {
+  color: #555 !important;
+}
+
+//Media Queries
+
+@media screen and (max-width: 1024px) {
+  #taxes-lease-fees,
+  #taxes-retail-tax-fees,
+  #taxes-mut-fees,
+  #taxes-crt-fees {
+    padding-left: 0;
+  }
+
+  #taxes-retail-tarde-credit-amount,
+  #taxes-lease-trade-credit-amount {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .input-group-addon {
+    padding: 1px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  label {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-tabs {
+    width: 463px;
+    margin-left: -31px;
+  }
+
+  .retail-row,
+  .lease-row, {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #taxes-retail-tooltip,
+  #taxes-lease-tooltip,
+  #taxes-mut-tooltip,
+  #taxes-crt-tooltip {
+    float: right;
+    margin-top: -60px;
+  }
+}
+
+input {
+  text-align: right;
+
+  &.has-error {
+    border-color: #e03835;
+  }
+}
+
+.error-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  .error-list-item {
+    align-self: center;
+    color: #e03835;
+  }
+}
+

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip renders <Tooltip /> 1`] = `
+<div
+  className="taxestooltip"
+>
+  <i
+    className="fa fa-info-circle"
+  />
+  <span
+    className="tooltiptext"
+  >
+    Tooltip Text
+  </span>
+</div>
+`;

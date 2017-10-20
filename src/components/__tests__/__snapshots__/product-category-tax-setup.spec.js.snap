@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Category Tax Setup specs renders <ProductCategoryTaxSetup /> 1`] = `
+<div
+  className="row"
+  id="edit-tax-product-category-setup"
+>
+  <div
+    className="nav-tabs-content"
+  >
+    <strong
+      className="text"
+    >
+      Following are the products available.
+    </strong>
+    <table
+      className="table product-category-tax-setup-table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Category
+          </th>
+          <th>
+            Tax if cap
+          </th>
+          <th>
+            Tax if DIA
+          </th>
+          <th>
+            CRT
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <strong>
+           No Products available
+        </strong>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

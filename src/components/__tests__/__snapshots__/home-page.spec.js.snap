@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders <HomePage /> 1`] = `
+<div>
+  <FullPageModal
+    className="sample-fullpage-modal"
+    closeButton={true}
+    footer={
+      <ModalFooter
+        cancel={[Function]}
+        displayResetBtn={true}
+        isDisabled={false}
+        modalName="taxes"
+        resetData={undefined}
+        save={[Function]}
+      />
+    }
+    header={
+      <ModalTitle
+        bsClass="modal-title"
+        componentClass="h4"
+      >
+        EDIT TAXES
+      </ModalTitle>
+    }
+    htmlId="Taxes-Modal"
+    onHide={[Function]}
+    show={true}
+  >
+    <Grid
+      bsClass="container"
+      className="template-page-wrapper page-wrapper__content-only"
+      componentClass="div"
+      fluid={true}
+    >
+      <Col
+        bsClass="col"
+        componentClass="div"
+        lg={12}
+        md={12}
+        sm={12}
+      >
+        <TaxesPage
+          currentTab={2}
+          feeTaxSetup={
+            Object {
+              "data": Array [],
+            }
+          }
+          fetchFeeTaxData={[Function]}
+          fetchTaxData={[Function]}
+          noTaxes={false}
+          profile={null}
+          state=""
+          taxSetup={Object {}}
+          updateCurrentTab={[Function]}
+          updateEditTaxProfileInput={[Function]}
+          updateTaxSetupInput={[Function]}
+          zipcode=""
+        />
+      </Col>
+    </Grid>
+  </FullPageModal>
+</div>
+`;
