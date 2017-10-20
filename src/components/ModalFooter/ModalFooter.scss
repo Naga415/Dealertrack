@@ -1,0 +1,35 @@
+@import "~@coxautokc/fusion-theme/dist/fusion-variables.scss";
+$ModalFooter: "#ModalFooter"; // namespace for component
+
+#{$ModalFooter} {
+  .btn {
+    width: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #buttongroup {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .leftbtn {
+    float: left;
+  }
+
+  .rightbtns {
+    float: right;
+  }
+
+  .save-btn {
+    color: $btn-primary-color !important;
+    background-color: $btn-primary-bg !important;
+    border-color: $btn-default-border !important;
+  }
+
+  .cancel-btn {
+    color: $btn-default-color;
+    background-color: $btn-default-bg;
+    border-color: $btn-default-border;
+  }
+}

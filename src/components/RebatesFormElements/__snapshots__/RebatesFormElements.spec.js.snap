@@ -1,0 +1,341 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RebatesFormElements specs should render <RebatesFormElements /> 1`] = `
+<div
+  id="RebatesFormElements"
+>
+  <div
+    className="row"
+    id={undefined}
+  >
+    <div
+      className="col-md-4 col-xs-4"
+      id={undefined}
+    >
+      <label
+        htmlFor="Incentives"
+      >
+        Incentives
+      </label>
+    </div>
+    <div
+      className="col-md-5 col-xs-5"
+      id={undefined}
+    >
+      <div
+        className="form-group undefined"
+      >
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control"
+            disabled={true}
+            id="Incentives-Input"
+            name="Incentives-Input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="0.00"
+            type="text"
+            value="6465"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+    id={undefined}
+  >
+    <div
+      className="col-md-4 col-xs-4"
+      id={undefined}
+    >
+      <label
+        htmlFor="LoyaltyCash"
+      >
+        Loyalty Cash
+      </label>
+    </div>
+    <div
+      className="col-md-5 col-xs-5"
+      id={undefined}
+    >
+      <div
+        className="form-group undefined"
+      >
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control"
+            disabled={true}
+            id="LoyaltyCash-Input"
+            name="LoyaltyCash-Input"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="0.00"
+            type="text"
+            value="565"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+    id={undefined}
+  >
+    <div
+      className="col-md-4 col-xs-4"
+      id={undefined}
+    >
+      <label
+        htmlFor="dealerRebate"
+      >
+        Dealer Rebate
+      </label>
+    </div>
+    <div
+      className="col-md-5 col-xs-5"
+      id={undefined}
+    >
+      <div
+        className="row"
+        id={undefined}
+      >
+        
+        <div
+          className="col-md-12 col-xs-12"
+          id={undefined}
+        >
+          <div
+            className="form-group undefined"
+          >
+            <div
+              className="input-group"
+            >
+              <span
+                className="input-group-addon"
+              >
+                <i
+                  className="fa fa-usd"
+                />
+              </span>
+              <input
+                className="form-control"
+                disabled={false}
+                id="DealerRebate-1-Input"
+                name="DealerRebate-1-Input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="0.00"
+                type="text"
+                value="5454"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+        id={undefined}
+      >
+        
+        <div
+          className="col-md-12 col-xs-12"
+          id={undefined}
+        >
+          <div
+            className="form-group undefined"
+          >
+            <div
+              className="input-group"
+            >
+              <span
+                className="input-group-addon"
+              >
+                <i
+                  className="fa fa-usd"
+                />
+              </span>
+              <input
+                className="form-control"
+                disabled={false}
+                id="DealerRebate-2-Input"
+                name="DealerRebate-2-Input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="0.00"
+                type="text"
+                value="321"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+        id={undefined}
+      >
+        
+        <div
+          className="col-md-12 col-xs-12"
+          id={undefined}
+        >
+          <div
+            className="form-group undefined"
+          >
+            <div
+              className="input-group"
+            >
+              <span
+                className="input-group-addon"
+              >
+                <i
+                  className="fa fa-usd"
+                />
+              </span>
+              <input
+                className="form-control"
+                disabled={false}
+                id="DealerRebate-3-Input"
+                name="DealerRebate-3-Input"
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="0.00"
+                type="text"
+                value="33"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-xs-3"
+      id={undefined}
+    >
+      <div
+        className="extra-padded-row row"
+        id={undefined}
+      >
+        <div
+          className="dealer-rebate-add col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className="disabled"
+            disabled={true}
+            id="dealer-rebate-add-1"
+            onClick={false}
+          >
+            <i
+              className="fa fa-plus"
+            />
+          </a>
+        </div>
+        <div
+          className="dealer-rebate-remove col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className=""
+            disabled={false}
+            id="dealer-rebate-remove-1"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-minus"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="extra-padded-row row"
+        id={undefined}
+      >
+        <div
+          className="dealer-rebate-add col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className="disabled"
+            disabled={true}
+            id="dealer-rebate-add-2"
+            onClick={false}
+          >
+            <i
+              className="fa fa-plus"
+            />
+          </a>
+        </div>
+        <div
+          className="dealer-rebate-remove col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className=""
+            disabled={false}
+            id="dealer-rebate-remove-2"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-minus"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        className="extra-padded-row row"
+        id={undefined}
+      >
+        <div
+          className="dealer-rebate-add col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className=""
+            disabled={false}
+            id="dealer-rebate-add-3"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-plus"
+            />
+          </a>
+        </div>
+        <div
+          className="dealer-rebate-remove col-md-6 col-xs-6"
+          id={undefined}
+        >
+          <a
+            className=""
+            disabled={false}
+            id="dealer-rebate-remove-3"
+            onClick={[Function]}
+          >
+            <i
+              className="fa fa-minus"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

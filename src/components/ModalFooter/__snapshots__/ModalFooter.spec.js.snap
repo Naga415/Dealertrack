@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalFooter specs renders <ModalFooter /> 1`] = `
+<div
+  id="ModalFooter"
+>
+  <div
+    className="row"
+    id="buttongroup"
+  >
+    <div
+      className="leftbtn col-lg-8 col-md-8 col-sm-8"
+      id={undefined}
+    >
+      <div
+        className="leftbtn"
+        id="modalName-ModalReset"
+      >
+        <i
+          aria-hidden="true"
+          className="fa fa-refresh fa-2x"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="rightbtns col-lg-8 col-md-8 col-sm-8"
+      id={undefined}
+    >
+      <button
+        className="cancel-btn btn btn-default"
+        disabled={false}
+        href={undefined}
+        id="modalName-modalCancel"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+      <button
+        className="save-btn btn btn-default"
+        disabled={false}
+        href={undefined}
+        id="modalName-modalSave"
+        onClick={[Function]}
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;

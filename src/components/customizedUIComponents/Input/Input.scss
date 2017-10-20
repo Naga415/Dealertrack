@@ -1,0 +1,17 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+.form-group {
+  span {
+    cursor: not-allowed;
+    background-color: #ebebea;
+  }
+
+  input[disabled] {
+    cursor: not-allowed;
+    background-color: #ebebea;
+  }
+
+  .remove-background-color {
+    background: none;
+  }
+}

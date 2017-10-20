@@ -1,0 +1,42 @@
+@import "~@coxautokc/fusion-theme/dist/fusion-variables.scss";
+
+#RebatesFormElements {
+  label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .extra-padded-row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .dealer-rebate-remove {
+    text-decoration: none;
+
+    a {
+      color: #f00;
+
+      &.disabled {
+        color: #d3d3d3;
+      }
+    }
+  }
+
+  .dealer-rebate-add {
+    text-decoration: none;
+
+    a {
+      color: #008000;
+
+      &.disabled {
+        color: #d3d3d3;
+      }
+    }
+  }
+
+  .error {
+    color: #f00;
+  }
+}

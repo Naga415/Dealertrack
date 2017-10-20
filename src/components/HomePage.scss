@@ -1,0 +1,24 @@
+@import "~@coxautokc/fusion-theme/dist/fusion-variables.scss";
+
+#Rebates-Modal {
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .modal-dialog {
+    width: 30%;
+    height: 50%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 12.5%;
+    right: 0;
+    bottom: 0;
+    left: 35%;
+  }
+
+  .modal-body {
+    padding-right: 50px;
+  }
+}
