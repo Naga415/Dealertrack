@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Deal Summary renders <DealSummary/> organism 1`] = `
+<div
+  className="deal-summary"
+  id="FinanceSummary"
+>
+  <div
+    className="deal-summary__header"
+  >
+    <label
+      htmlFor="FinanceSummaryHeader"
+    >
+      Finance Deal
+    </label>
+  </div>
+  <div
+    className="deal-summary__body container-fluid"
+    id={undefined}
+  >
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Hold Deposit"
+          id="HoldDeposit-label"
+        >
+          Hold Deposit
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Hold Deposit"
+          id="HoldDeposit-value"
+        >
+          _
+        </label>
+      </div>
+    </div>
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Purchase Price w/ Adds"
+          id="PurchasePricew/Adds-label"
+        >
+          Purchase Price w/ Adds
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Purchase Price w/ Adds"
+          id="PurchasePricew/Adds-value"
+        >
+          _
+        </label>
+      </div>
+    </div>
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Discount from Selling Price"
+          id="DiscountfromSellingPrice-label"
+        >
+          Discount from Selling Price
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Discount from Selling Price"
+          id="DiscountfromSellingPrice-value"
+        >
+          $4,000
+        </label>
+      </div>
+    </div>
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Net Trade"
+          id="NetTrade-label"
+        >
+          Net Trade
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Net Trade"
+          id="NetTrade-value"
+        >
+          $7,000
+        </label>
+      </div>
+    </div>
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Interest Rate Total"
+          id="InterestRateTotal-label"
+        >
+          Interest Rate Total
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Interest Rate Total"
+          id="InterestRateTotal-value"
+        >
+          $1,500
+        </label>
+      </div>
+    </div>
+    <div
+      className="show-grid deal-summary-item row"
+      id={undefined}
+    >
+      <div
+        className="col-md-8"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__label"
+          htmlFor="Total of Payments"
+          id="TotalofPayments-label"
+        >
+          Total of Payments
+        </label>
+      </div>
+      <div
+        className="col-md-4"
+        id={undefined}
+      >
+        <label
+          className="deal-summary-item__value"
+          htmlFor="Total of Payments"
+          id="TotalofPayments-value"
+        >
+          $37,000
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

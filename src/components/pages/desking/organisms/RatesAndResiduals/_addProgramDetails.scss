@@ -1,0 +1,13 @@
+$addProgramDetails:'.add-program-details'; // namespace for component
+
+#{$addProgramDetails} {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+
+  &__modal_link {
+    margin-left: 78px;
+  }
+}
+

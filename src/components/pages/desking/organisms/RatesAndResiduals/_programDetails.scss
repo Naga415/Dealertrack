@@ -1,0 +1,16 @@
+$programDetails: '.program-details';
+
+#{$programDetails} {
+  &__table {
+    padding: 10px 0;
+  }
+
+  &__incentives {
+    padding: 10px 0;
+    font-weight: 400;
+  }
+
+  &__modal_link {
+    padding-left: 0;
+  }
+}

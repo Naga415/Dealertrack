@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab renders <Tab/> 1`] = `
+<div
+  className="tab"
+  id="Tab"
+>
+  <div
+    className="tab__selectors"
+  >
+    <div
+      className="primary form-group"
+    >
+      <label
+        className="selectInput radio-inline"
+        style={undefined}
+        title=""
+      >
+        <input
+          checked={true}
+          disabled={false}
+          id="DealType"
+          name="DealType"
+          onChange={[Function]}
+          type="radio"
+          value="Finance"
+        />
+        Finance
+      </label>
+      <label
+        className="selectInput radio-inline"
+        style={undefined}
+        title=""
+      >
+        <input
+          checked={false}
+          disabled={false}
+          id="DealType"
+          name="DealType"
+          onChange={[Function]}
+          type="radio"
+          value="Lease"
+        />
+        Lease
+      </label>
+      <label
+        className="selectInput radio-inline"
+        style={undefined}
+        title=""
+      >
+        <input
+          checked={false}
+          disabled={false}
+          id="DealType"
+          name="DealType"
+          onChange={[Function]}
+          type="radio"
+          value="Cash"
+        />
+        Cash
+      </label>
+      <label
+        className="selectInput radio-inline"
+        style={undefined}
+        title=""
+      >
+        <input
+          checked={false}
+          disabled={false}
+          id="DealType"
+          name="DealType"
+          onChange={[Function]}
+          type="radio"
+          value="Balloon"
+        />
+        Balloon
+      </label>
+      
+    </div>
+  </div>
+  <div
+    className="tab__container"
+  >
+    <div
+      className="tab__container__content"
+      id="FinanceDeal"
+    >
+      Finance Content
+    </div>
+  </div>
+</div>
+`;

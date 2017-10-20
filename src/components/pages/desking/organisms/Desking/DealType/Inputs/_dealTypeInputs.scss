@@ -1,0 +1,12 @@
+$dealTypeInputs:'.deal-type-inputs'; // namespace for component
+
+#{$dealTypeInputs} {
+  width: 500px;
+  height: 400px;
+
+  &__stackable {
+    width: 50%;
+    height: 48px;
+    float: left;
+  }
+}

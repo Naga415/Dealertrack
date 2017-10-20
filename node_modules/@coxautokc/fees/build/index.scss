@@ -1,0 +1,21 @@
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+body {
+  font-size: 14px;
+  background-color: #fff;
+  color: $gray-dark;
+  height: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+.modal-backdrop {
+  background-color: transparent;
+}

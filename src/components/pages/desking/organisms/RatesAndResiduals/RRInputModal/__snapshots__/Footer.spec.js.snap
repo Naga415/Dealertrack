@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders <Footer/>  1`] = `
+<div>
+  <button
+    className="btn btn-default"
+    disabled={false}
+    href={undefined}
+    id="RRModelCancel"
+    onClick={[Function]}
+    type="button"
+  >
+    Cancel
+  </button>
+  <button
+    className="btn btn-primary"
+    disabled={false}
+    href={undefined}
+    id="RRModelApply"
+    onClick={[Function]}
+    type="button"
+  >
+    Apply
+  </button>
+</div>
+`;

@@ -1,0 +1,36 @@
+$dealhighlight:'.deal-highlight'; // namespace for component
+$color:  #5ebb47 !default;
+
+#{$dealhighlight} {
+  display: inline-block;
+  text-align: left;
+  min-width: 175px;
+  padding-bottom: 10px;
+
+  &__button {
+    padding: 0;
+  }
+
+  .amount {
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+
+  .paymenttype {
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+
+  .deal-highlight--hide {
+    display: none;
+  }
+}
+
+.deal-highlight-state--different {
+  color: $color;
+
+  button {
+    color: $color;
+  }
+}
+

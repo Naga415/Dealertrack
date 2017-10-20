@@ -1,0 +1,39 @@
+
+@import '~@coxautokc/fusion-theme/dist/fusion-variables.scss';
+
+$card-namespace: '.card';
+
+#{$card-namespace} {
+  border-color: $panel-default-border;
+  position: relative;
+
+  &__dropdown {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  &__dropdown-button {
+    padding: 5px $padding-base-horizontal 0; // default button padding: $padding-base-vertical $padding-base-horizontal;
+    font-size: ceil(($font-size-base * 1.125)); // taken from .panel-title
+    background-color: transparent;
+    border-color: transparent;
+
+    &:active,
+    &:focus,
+    &:active:focus,
+    &:hover {
+      border-color: transparent;
+    }
+
+    #{$card-namespace}__dropdown > .open > &.dropdown-toggle {
+      border-color: transparent;
+
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: transparent;
+      }
+    }
+  }
+}

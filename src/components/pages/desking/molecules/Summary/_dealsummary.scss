@@ -1,0 +1,18 @@
+.deal-summary {
+  &__header {
+    padding: 0 0 15px 15px;
+  }
+
+  &__body {
+    display: block;
+
+    .deal-summary-item {
+      padding: 0;
+
+      &__value {
+        display: block;
+        text-align: right;
+      }
+    }
+  }
+}

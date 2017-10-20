@@ -1,0 +1,18 @@
+$readOnly:'.read-only'; // namespace for component
+$fontSize: 13px;
+
+#{$readOnly} {
+  float: right;
+  padding-bottom: 5px;
+
+  &__label {
+    float: left;
+    padding-right: 13px;
+  }
+
+  &__value {
+    float: right;
+    width: 100px;
+    text-align: right;
+  }
+}

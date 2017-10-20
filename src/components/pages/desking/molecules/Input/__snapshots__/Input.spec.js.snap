@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab renders <Input/> 1`] = `
+<div
+  className="desking-input"
+>
+  <div
+    className="desking-input__label"
+  >
+    <label
+      className="desking-input__text-label control-label"
+      htmlFor={undefined}
+    >
+      TestLabel
+    </label>
+  </div>
+  <input
+    className="desking-input__value form-control input-sm"
+    id="TestId"
+    inputMode="numeric"
+    name="TestName"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="TestLabel"
+    readOnly={undefined}
+    tabIndex={undefined}
+    type="number"
+    value="TestValue"
+  />
+</div>
+`;

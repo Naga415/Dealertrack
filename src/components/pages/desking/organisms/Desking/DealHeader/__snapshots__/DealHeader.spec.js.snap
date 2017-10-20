@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DealHeader renders <DealHeader /> 1`] = `
+<div
+  id="DealHeader"
+>
+  Deal is based on Zipcode
+  <button
+    className="deal-header__button btn btn-link"
+    disabled={false}
+    href={undefined}
+    id="buttonZipcode"
+    onClick={[Function]}
+    type="button"
+  >
+    66203
+  </button>
+  and a Credit Score of
+  <button
+    className="deal-header__button btn btn-link"
+    disabled={false}
+    href={undefined}
+    id="buttonCreditscore"
+    onClick={[Function]}
+    type="button"
+  >
+    650
+  </button>
+</div>
+`;

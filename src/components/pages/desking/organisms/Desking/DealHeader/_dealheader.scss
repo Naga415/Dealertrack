@@ -1,0 +1,23 @@
+$dealHeader :'.deal-header';
+
+#{$dealHeader} {
+  &__button {
+    padding: 0 4px !important;
+  }
+
+  &__header-col {
+    padding: 0;
+  }
+
+  &__actionbar-col {
+    padding: 0;
+
+    .action-bar {
+      margin-left: 70px;
+    }
+  }
+
+  &__menubar-col {
+    padding: 0;
+  }
+}

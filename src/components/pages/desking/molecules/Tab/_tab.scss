@@ -1,0 +1,21 @@
+$tab:'.tab'; // namespace for component
+
+#{$tab} {
+  padding: 10px 0;
+
+  &__selectors {
+    padding: 0;
+
+    .selectInput {
+      padding-right: 15px;
+    }
+  }
+
+  &__container {
+    padding: 5px;
+
+    &__content {
+      padding: 0;
+    }
+  }
+}

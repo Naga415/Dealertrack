@@ -1,0 +1,10 @@
+$waiting:'.waiting'; // namespace for component
+
+#{$waiting} {
+  padding: 150px 0;
+  text-align: center;
+
+  &__header {
+    font-weight: bold;
+  }
+}

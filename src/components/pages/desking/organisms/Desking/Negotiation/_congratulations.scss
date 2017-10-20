@@ -1,0 +1,10 @@
+$congratulations:'.congratulations'; // namespace for component
+
+#{$congratulations} {
+  padding: 150px 0;
+  text-align: center;
+
+  &__header {
+    font-weight: bold;
+  }
+}

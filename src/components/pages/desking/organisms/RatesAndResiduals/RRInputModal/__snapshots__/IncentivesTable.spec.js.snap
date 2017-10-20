@@ -1,0 +1,596 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramsTable renders <IncentivesTable/>  1`] = `
+<div
+  className="data-table undefined"
+  id="RRIncentivesTable"
+>
+  <div
+    className={undefined}
+    style={undefined}
+  >
+    <input
+      className="griddle-filter form-control"
+      name="filter"
+      onChange={[Function]}
+      placeholder="Filter"
+      style={undefined}
+      type="text"
+    />
+    <div
+      className={undefined}
+      style={undefined}
+    />
+    <table
+      className="griddle-table"
+      style={undefined}
+    >
+      <thead
+        className="griddle-table-heading"
+        style={undefined}
+      >
+        <tr>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+               
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Name
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Expiration Date
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              $ Offer
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Money Factor %
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+               
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="griddle-table-body"
+        style={undefined}
+      >
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          >
+            <div>
+              <div
+                className="checkbox disabled"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={false}
+                    disabled={true}
+                    id="IncentiveCheckbox1"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 450,
+              }
+            }
+          >
+            Military Incentive
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            12/05/2018
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            1234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            <button
+              className="pull-right btn btn-link"
+              disabled={false}
+              href={undefined}
+              id="IncentiveButton1"
+              onClick={undefined}
+              type="button"
+            >
+              <svg
+                className="svgicon icon-info-outline"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "fill": "currentColor",
+                    "height": "24px",
+                    "userSelect": "none",
+                    "width": "24px",
+                  }
+                }
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          >
+            <div>
+              <div
+                className="checkbox"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={true}
+                    disabled={false}
+                    id="IncentiveCheckbox2"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 450,
+              }
+            }
+          >
+            Recent Grad Incentive
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            12/05/2017
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            1234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            <button
+              className="pull-right btn btn-link"
+              disabled={false}
+              href={undefined}
+              id="IncentiveButton2"
+              onClick={undefined}
+              type="button"
+            >
+              <svg
+                className="svgicon icon-info-outline"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "fill": "currentColor",
+                    "height": "24px",
+                    "userSelect": "none",
+                    "width": "24px",
+                  }
+                }
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          >
+            <div>
+              <div
+                className="checkbox disabled"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={false}
+                    disabled={true}
+                    id="IncentiveCheckbox3"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="checkbox"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 450,
+              }
+            }
+          >
+            Friday Incentive
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            11/05/2017
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            1234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            <button
+              className="pull-right btn btn-link"
+              disabled={false}
+              href={undefined}
+              id="IncentiveButton3"
+              onClick={undefined}
+              type="button"
+            >
+              <svg
+                className="svgicon icon-info-outline"
+                preserveAspectRatio="xMidYMid meet"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "fill": "currentColor",
+                    "height": "24px",
+                    "userSelect": "none",
+                    "width": "24px",
+                  }
+                }
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11 17h2v-6h-2v6zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM11 9h2V7h-2v2z"
+                />
+              </svg>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      className="griddle-pagination"
+      style={undefined}
+    >
+      <ul
+        className="pagination pagination-md"
+      >
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="First"
+            >
+              «
+            </span>
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Previous"
+            >
+              ‹
+            </span>
+          </a>
+        </li>
+        <li
+          className="active"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            1
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Next"
+            >
+              ›
+            </span>
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Last"
+            >
+              »
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

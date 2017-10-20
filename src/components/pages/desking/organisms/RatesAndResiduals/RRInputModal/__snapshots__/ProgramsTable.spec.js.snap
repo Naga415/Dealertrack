@@ -1,0 +1,963 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgramsTable renders <ProgramsTable/>  1`] = `
+<div
+  className="data-table undefined"
+  id="RRProgramsTable"
+>
+  <div
+    className={undefined}
+    style={undefined}
+  >
+    <input
+      className="griddle-filter form-control"
+      name="filter"
+      onChange={[Function]}
+      placeholder="Filter"
+      style={undefined}
+      type="text"
+    />
+    <div
+      className={undefined}
+      style={undefined}
+    />
+    <table
+      className="griddle-table"
+      style={undefined}
+    >
+      <thead
+        className="griddle-table-heading"
+        style={undefined}
+      >
+        <tr>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+               
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Type
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Lender
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Rebates
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Rate/MF
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Term
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Acq Fee
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Res %
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Miles/yr
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Payment
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              F. Gross
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              B. Gross
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Exp Date
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Max Adv
+            </span>
+          </th>
+          <th
+            className="griddle-table-heading-cell"
+            onClick={[Function]}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={undefined}
+          >
+            <span>
+              Amnt Financed
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="griddle-table-body"
+        style={undefined}
+      >
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 10,
+              }
+            }
+          >
+            <div>
+              <div
+                className="radio"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={true}
+                    disabled={false}
+                    id="ProgramRadio0"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="radio"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            Finance
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            acd
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            1500
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            6.9
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            24
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            900
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            11/23/2020
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            643
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            40000
+          </td>
+        </tr>
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 10,
+              }
+            }
+          >
+            <div>
+              <div
+                className="radio"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={false}
+                    disabled={false}
+                    id="ProgramRadio1"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="radio"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            Balloon
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            acd
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            0
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            6.9
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            60
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          />
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            480
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            11/23/2018
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            643
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            40000
+          </td>
+        </tr>
+        <tr
+          className="griddle-row"
+          style={undefined}
+        >
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 10,
+              }
+            }
+          >
+            <div>
+              <div
+                className="radio"
+                style={undefined}
+              >
+                <label
+                  title=""
+                >
+                  <input
+                    checked={false}
+                    disabled={false}
+                    id="ProgramRadio2"
+                    onChange={[Function]}
+                    onClick={[Function]}
+                    type="radio"
+                  />
+                </label>
+              </div>
+            </div>
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            Lease
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            acd
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            0
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            0.0035
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            60
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            0.45
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            10000
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            552
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            234
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            456
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            11/23/2018
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": 200,
+              }
+            }
+          >
+            643
+          </td>
+          <td
+            className="griddle-cell"
+            onClick={undefined}
+            onMouseEnter={undefined}
+            onMouseLeave={undefined}
+            style={
+              Object {
+                "width": null,
+              }
+            }
+          >
+            40000
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      className="griddle-pagination"
+      style={undefined}
+    >
+      <ul
+        className="pagination pagination-md"
+      >
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="First"
+            >
+              «
+            </span>
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Previous"
+            >
+              ‹
+            </span>
+          </a>
+        </li>
+        <li
+          className="active"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+          >
+            1
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Next"
+            >
+              ›
+            </span>
+          </a>
+        </li>
+        <li
+          className="disabled"
+          style={undefined}
+        >
+          <a
+            href="#"
+            onClick={[Function]}
+            role="button"
+            style={
+              Object {
+                "pointerEvents": "none",
+              }
+            }
+            tabIndex={-1}
+          >
+            <span
+              aria-label="Last"
+            >
+              »
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

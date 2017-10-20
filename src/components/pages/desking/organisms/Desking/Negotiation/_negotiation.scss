@@ -1,0 +1,33 @@
+$negotiation: '.negotiation';
+$border: 1px solid lightgrey;
+$padding: 10px;
+
+#{$negotiation} {
+  margin: 0;
+
+  &__left-col {
+    padding: 0;
+
+    > div {
+      border: $border;
+      padding: $padding;
+      margin-right: 10px;
+      width: 100%;
+    }
+  }
+
+  &__right-col {
+    padding: 0;
+
+    > div {
+      border: $border;
+      padding: $padding;
+      margin-left: 10px;
+      width: 100%;
+    }
+  }
+
+  .border--state-submitted {
+    border-top: 3px solid #0585c8;
+  }
+}

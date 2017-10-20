@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GrossDetails/> component renders <GrossDetails/>  1`] = `
+<div
+  id="GrossDetails"
+>
+  <div
+    className="desking-table"
+    id="GrossDetailsFront"
+  >
+    <span
+      className="desking-table__title"
+    >
+      Front End Gross
+    </span>
+    <table>
+      <thead>
+        <tr
+          className="table-headers"
+        >
+          <th>
+            Description
+          </th>
+          <th>
+            Price
+          </th>
+          <th>
+            Cost
+          </th>
+          <th>
+            Profit
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+  <div
+    className="desking-table"
+    id="GrossDetailsBack"
+  >
+    <span
+      className="desking-table__title"
+    >
+      Back End Gross
+    </span>
+    <table>
+      <thead>
+        <tr
+          className="table-headers"
+        >
+          <th>
+            Description
+          </th>
+          <th>
+            Price
+          </th>
+          <th>
+            Cost
+          </th>
+          <th>
+            Profit
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;

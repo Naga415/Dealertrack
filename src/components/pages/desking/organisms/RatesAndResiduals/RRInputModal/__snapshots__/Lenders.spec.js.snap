@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lenders renders <Lenders/>  1`] = `
+<div>
+  <div
+    className="dropdown btn-group btn-group-sm btn-group-link"
+  >
+    <button
+      aria-expanded={false}
+      aria-haspopup={true}
+      className="dropdown-toggle btn btn-sm btn-link"
+      disabled={false}
+      id="Lenders"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      type="button"
+    >
+      Ally
+       
+      <span
+        className="caret"
+      />
+    </button>
+    <ul
+      aria-labelledby="Lenders"
+      className="dropdown-menu"
+      role="menu"
+    >
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          id="LenderMenuItem0"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex="-1"
+        >
+          UMB
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          id="LenderMenuItem1"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="menuitem"
+          tabIndex="-1"
+        >
+          Ally
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

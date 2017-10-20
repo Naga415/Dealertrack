@@ -1,0 +1,23 @@
+$deskingPage:'.desking-page'; // namespace for component
+
+#{$deskingPage} {
+  width: 953px;
+
+  .card__header {
+    padding-bottom: 10px;
+  }
+
+  .deal-detail-col {
+    padding: 0;
+  }
+
+  .deal-summary-col {
+    border: 1px solid lightgrey;
+    border-top: 5px solid #0585c8;
+    padding: 0;
+  }
+
+  .commands-col {
+    padding: 0;
+  }
+}

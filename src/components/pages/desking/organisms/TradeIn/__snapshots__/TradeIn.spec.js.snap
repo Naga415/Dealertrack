@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trade In Card Tests renders <TradeIn /> organism 1`] = `
+<div
+  className="card panel panel-default"
+  id="TradeInCard"
+>
+  <div
+    className="panel-heading"
+  >
+    <div
+      className="card__title panel-title"
+    >
+      TRADE IN
+    </div>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      id="TradeInDetails"
+    >
+      TODO
+    </div>
+  </div>
+</div>
+`;

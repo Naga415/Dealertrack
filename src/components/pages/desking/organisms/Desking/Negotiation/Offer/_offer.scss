@@ -1,0 +1,39 @@
+$offer: '.offer';
+
+#{$offer} {
+  &__select-input {
+    width: 150px;
+    padding-bottom: 15px;
+  }
+
+  .read-only {
+    .read-only__label {
+      padding: 4px 0;
+      vertical-align: sub;
+      display: inline-block;
+    }
+
+    .read-only__value {
+      padding-bottom: 5px;
+      vertical-align: sub;
+      display: inline-block;
+    }
+  }
+
+  &__grid {
+    width: 100%;
+
+    tr {
+      height: 45px;
+    }
+  }
+
+  .label--state-different {
+    color: #5ebb47 !important;
+    font-weight: 400;
+
+    label {
+      color: #5ebb47 !important;
+    }
+  }
+}

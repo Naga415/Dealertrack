@@ -1,0 +1,61 @@
+$griddle-border-color: $grey200-opaque;
+
+.griddle {
+  &-filter {
+    float: left;
+    width: 50%;
+    text-align: left;
+    min-height: 1px;
+    margin-bottom: 15px;
+  }
+
+  &-settings-toggle {
+    float: right;
+  }
+
+  &-table,
+  &-noResults {
+    clear: both;
+    width: 100%;
+  }
+
+  &-settings {
+    clear: both;
+  }
+
+  &-pagination {
+    clear: both;
+    text-align: center;
+  }
+
+  &-table-heading {
+    font-size: $font-size-small;
+    color: $gray-light;
+    font-weight: 500;
+    background-color: $gray-lightest;
+    border: 1px solid $griddle-border-color;
+  }
+
+  &-table-heading-cell {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  &-columns {
+    clear: both;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid $griddle-border-color;
+    margin-bottom: 10px;
+  }
+
+  &-row {
+    background-color: #fff;
+    border: 1px solid $griddle-border-color;
+  }
+
+  &-cell {
+    padding: 8px;
+    line-height: 1.5;
+  }
+}

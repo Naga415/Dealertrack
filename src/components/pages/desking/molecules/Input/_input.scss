@@ -1,0 +1,30 @@
+$deskingInput:'.desking-input'; // namespace for component
+$fontSize: 13px;
+
+#{$deskingInput} {
+  float: right;
+  padding-bottom: 5px;
+
+  &__text-label {
+    vertical-align: sub;
+    padding-right: 13px;
+  }
+
+  &__dropdown-label {
+    font-size: $fontSize;
+  }
+
+  &__link-label {
+    font-size: $fontSize;
+  }
+
+  &__label {
+    float: left;
+  }
+
+  &__value {
+    float: left;
+    width: 100px;
+    text-align: right;
+  }
+}

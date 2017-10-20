@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgramDetails> renders <ProgramDetails/> 1`] = `
+<div
+  className="program-details"
+  id="ProgramDetails"
+>
+  <div
+    className="data-table griddle program-details__table"
+    id="AppliedIncentivesTable"
+  >
+    <div
+      className={undefined}
+      style={undefined}
+    >
+      <div
+        className={undefined}
+        style={undefined}
+      />
+      <table
+        className="griddle-table"
+        style={undefined}
+      >
+        <thead
+          className="griddle-table-heading"
+          style={undefined}
+        >
+          <tr>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Type
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Lender
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Rebates
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Rate/MF
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Term
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Acquisition Fee
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Res %
+              </span>
+            </th>
+            <th
+              className="griddle-table-heading-cell"
+              onClick={[Function]}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "cursor": "pointer",
+                }
+              }
+            >
+              <span>
+                Max Adv
+              </span>
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="griddle-table-body"
+          style={undefined}
+        >
+          <tr
+            className="griddle-row"
+            style={undefined}
+          >
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              Finance
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              acd
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              1500
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              6.9
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              24
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              456
+            </td>
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            />
+            <td
+              className="griddle-cell"
+              onClick={undefined}
+              onMouseEnter={undefined}
+              onMouseLeave={undefined}
+              style={
+                Object {
+                  "width": null,
+                }
+              }
+            >
+              643
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="program-details__incentives"
+  >
+    Applied Incentives   
+    $2,468
+  </div>
+  <button
+    className="program-details__modal_link btn btn-link"
+    disabled={false}
+    href={undefined}
+    id="ViewDetailsLink"
+    onClick={[Function]}
+    type="button"
+  >
+    View Details
+  </button>
+</div>
+`;

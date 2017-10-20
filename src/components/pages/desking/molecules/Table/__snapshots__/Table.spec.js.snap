@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table/> component renders <Table/> that matches the data 1`] = `
+<div
+  className="desking-table"
+  id="NewTable"
+>
+  <span
+    className="desking-table__title"
+  >
+    Back End Gross
+  </span>
+  <table>
+    <thead>
+      <tr
+        className="table-headers"
+      >
+        <th>
+          Column1
+        </th>
+        <th>
+          Column2
+        </th>
+        <th>
+          Column3
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Col1 value
+        </td>
+        <td>
+          1235
+        </td>
+        <td>
+          2450
+        </td>
+      </tr>
+      <tr>
+        <td>
+          7853
+        </td>
+        <td>
+          col2 value
+        </td>
+        <td>
+          78552
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
