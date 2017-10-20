@@ -1,0 +1,114 @@
+@import "~@coxautokc/fusion-theme/dist/fusion-variables.scss";
+
+#FeesFormHeader {
+  padding-top: 25px;
+
+  label {
+    font-weight: bold;
+    min-height: 30px;
+    color: #454545;
+  }
+
+  .fees__capLabel {
+    margin-right: 4px;
+  }
+
+  .fees__tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  .fees__tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 5px 0;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 1 !important;
+
+    /* Position the tooltip */
+    position: absolute;
+    transform-origin: 0 0;
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .tooltip-top {
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .fees__tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .fees__tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 48%;
+    margin-left: -5px;
+    border: 5px solid #fff;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(-45deg);
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-xs-1,
+  .col-xs-10,
+  .col-xs-11,
+  .col-xs-12,
+  .col-xs-2,
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

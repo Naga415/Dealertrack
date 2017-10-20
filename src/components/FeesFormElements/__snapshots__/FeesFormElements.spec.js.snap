@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeesFormElements specs renders <FeesFormElements /> 1`] = `
+<div
+  id="FeesFormElements"
+>
+  <div
+    className="row"
+    id={undefined}
+  >
+    <div
+      className="col-md-3 col-sm-3"
+      id={undefined}
+    >
+      <div
+        className="form-group"
+      >
+        <select
+          className="selectInput form-control"
+          disabled={undefined}
+          id="feesFeeType-0"
+          name="feesFeeType-0"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type={undefined}
+          value="0"
+        >
+          <option
+            value=""
+          >
+             
+          </option>
+          <optgroup
+            label="Dealer Fees"
+          >
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+          </optgroup>
+          <optgroup
+            label="Government Fees"
+          >
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+          </optgroup>
+          <optgroup
+            label="Lender Fees"
+          >
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+            <option
+              label={undefined}
+              value={undefined}
+            />
+          </optgroup>
+        </select>
+        
+      </div>
+    </div>
+    <div
+      className="col-md-3 col-sm-3"
+      id={undefined}
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          className="form-control"
+          id="feesFeeName-0"
+          maxLength={50}
+          name="feesFeeName-0"
+          onBlur={[Function]}
+          onChange={[Function]}
+          placeholder=" "
+          required={undefined}
+          type="text"
+          value=""
+        />
+        
+      </div>
+    </div>
+    <div
+      className="col-md-2 col-sm-2"
+      id={undefined}
+    >
+      <div
+        className="form-group"
+      >
+        <div
+          className="input-group"
+        >
+          <span
+            className="input-group-addon"
+          >
+            <i
+              className="fa fa-usd"
+            />
+          </span>
+          <input
+            className="form-control"
+            disabled={false}
+            id="feesAmount-0"
+            name="feesAmount-0"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-md-1 col-sm-1"
+      id={undefined}
+    >
+      <div
+        className="checkbox"
+        style={undefined}
+      >
+        <label
+          title=""
+        >
+          <input
+            checked={Array []}
+            disabled={false}
+            id="feesCap-0"
+            label="Cap"
+            name="feesCap-0"
+            onChange={[Function]}
+            type="checkbox"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-md-2 col-sm-2"
+      id={undefined}
+    >
+      <div
+        className="form-group"
+      >
+        <select
+          className="selectInput form-control"
+          disabled={undefined}
+          id="feesPaidTo-0"
+          name="feesPaidTo-0"
+          onBlur={[Function]}
+          onChange={[Function]}
+          type={undefined}
+          value=""
+        >
+          <option
+            value={null}
+          />
+          <option
+            value="Dealer"
+          >
+            Dealer
+          </option>
+          <option
+            value="State"
+          >
+            State
+          </option>
+          <option
+            value="Others"
+          >
+            Others
+          </option>
+        </select>
+        
+      </div>
+    </div>
+    <div
+      className="col-md-1 col-sm-1"
+      id="feesInteraction-0"
+    >
+      <svg
+        className="active-add-btnsvgicon icon-add"
+        id={undefined}
+        onClick={[Function]}
+        preserveAspectRatio="xMidYMid meet"
+        style={
+          Object {
+            "display": "inline-block",
+            "fill": "currentColor",
+            "height": "24px",
+            "userSelect": "none",
+            "width": "24px",
+          }
+        }
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

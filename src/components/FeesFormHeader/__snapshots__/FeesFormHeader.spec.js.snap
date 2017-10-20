@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeesFormHeader specs renders <FeesFormHeader /> 1`] = `
+<div
+  className="row"
+  id="FeesFormHeader"
+>
+  <div
+    className="col-md-3 col-sm-3"
+    id="feesTypeLabel"
+  >
+    <label
+      htmlFor="feesTypeLabel"
+    >
+      Fee Type
+    </label>
+  </div>
+  <div
+    className="col-md-3 col-sm-3"
+    id="feesNameLabel"
+  >
+    <label
+      htmlFor="feesNameLabel"
+    >
+      Fee Name
+    </label>
+  </div>
+  <div
+    className="col-md-2 col-sm-2"
+    id="feesAmountLabel"
+  >
+    <label
+      htmlFor="feesAmountLabel"
+    >
+      Amount
+    </label>
+  </div>
+  <div
+    className="col-md-1 col-sm-1"
+    id="feesCapLabel"
+  >
+    <label
+      className="fees__capLabel"
+      htmlFor="feesCapLabel"
+    >
+      Cap
+    </label>
+    <div
+      className="fees__tooltip"
+    >
+      <i
+        className="fa fa-info-circle"
+      />
+      <span
+        className="tooltiptext"
+      >
+        Capitalize
+      </span>
+    </div>
+  </div>
+  <div
+    className="col-md-2 col-sm-2"
+    id="feesPaidToLabel"
+  >
+    <label
+      htmlFor="feesPaidToLabel"
+    >
+      Paid To
+    </label>
+  </div>
+</div>
+`;
